@@ -22,3 +22,4 @@ go.work
 
 # uap
 uap
+*_test_*
