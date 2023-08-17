@@ -1,9 +1,7 @@
 batteries:
-    - name: ps-controller-battery-90:89:5f:2a:81:5c
-      critical: 30
-    - name: DELL FW8KR9A
-      critical: 60
-    - name: Bluetooth Mouse M336/M337/M535
+    - name: <My Notebook Battery Name>
+      critical: 25
+    - name: <My Headset Battery Name>
       critical: 10
 alerts:
     added: /usr/share/sounds/freedesktop/stereo/power-plug.oga
@@ -12,5 +10,5 @@ alerts:
     discharging: /usr/share/sounds/freedesktop/stereo/power-unplug.oga
     full: /usr/share/sounds/freedesktop/stereo/complete.oga
     critical: /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga
-logfile: /tmp/uap.log
 verbose: true
+# logfile: uap.log
