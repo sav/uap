@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/codegoalie/golibnotify v0.1.0
 	github.com/faiface/beep v1.1.0
-	github.com/sav/battery v0.0.0-20230814135841-288fd4b1c88f
+	github.com/sav/battery v0.12.0-dev
 	gopkg.in/yaml.v3 v3.0.1
 )
 
