@@ -2,13 +2,13 @@
 
 A lightweight battery monitor that tracks health and consumption.
 
-## Installation
+## 💾 Installation
 
 ```
 go install github.com/sav/uap@latest
 ```
 
-## Configuration
+## 📝 Configuration
 
 Begin by copying `uaprc.example` to `~/.uaprc` and proceed to make edits as per your requirements.
 
@@ -24,7 +24,7 @@ You can usually locate the battery's name within its sysfs directory, often list
 cat /sys/class/power_supply/*/uevent
 ```
 
-## Build
+## 🔨 Build
 
 ### Dependencies
 
@@ -43,4 +43,3 @@ And on RedHat-based Linux distributions, run:
 ```
 dnf install alsa-lib-devel
 ```
-
