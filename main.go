@@ -92,6 +92,7 @@ var (
 	configFile string
 	logFile    string
 	verbose    bool
+	showVers   bool
 )
 
 func init() {
@@ -99,10 +100,16 @@ func init() {
 		"Load configuration from file.")
 	flag.StringVar(&logFile, "l", "", "Write logs to file.")
 	flag.BoolVar(&verbose, "v", false, "Enable verbose output.")
+	flag.BoolVar(&showVers, "V", false, "Print version information.")
 }
 
 func main() {
 	flag.Parse()
+
+	if showVers {
+		printVersion()
+		os.Exit(0)
+	}
 
 	config, err := LoadConfig(configFile)
 	if err != nil {
