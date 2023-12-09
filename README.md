@@ -1,6 +1,7 @@
 # UAP
 
-A lightweight battery monitor that tracks health and consumption.
+A minimalistic battery monitor designed to alert users about changing battery states through sound and inotify messages.
+
 
 ## 💾 Installation
 
